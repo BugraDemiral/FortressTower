@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/bugra/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/bugra/Development/FortressTower/android-sdk/fortresstower/.cxx/Debug/s4ml5d5w/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/bugra/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/bugra/Development/FortressTower/android-sdk/fortresstower/.cxx/Debug/s4ml5d5w/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fortresstower::@6890427a1f51a3e7e1df": {
+      "artifactName": "fortresstower",
+      "abi": "arm64-v8a",
+      "output": "/Users/bugra/Development/FortressTower/android-sdk/fortresstower/build/intermediates/cxx/Debug/s4ml5d5w/obj/arm64-v8a/libfortresstower.so",
+      "runtimeFiles": []
+    }
+  }
+}

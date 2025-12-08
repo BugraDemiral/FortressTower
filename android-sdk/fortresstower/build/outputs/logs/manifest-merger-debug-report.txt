@@ -1,0 +1,15 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml:1:1-52
+INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml:1:1-52
+	package
+		ADDED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml:1:11-49
+		INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml
+uses-sdk
+INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml
+INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bugra/Development/FortressTower/android-sdk/fortresstower/src/main/AndroidManifest.xml

@@ -1,0 +1,7 @@
+# ninja log v5
+0	55	1765047408314693115	CMakeFiles/fortresstower.dir/anti_debug.cpp.o	66a43005f7dc4129
+55	94	1765047408354111132	/Users/bugra/Development/FortressTower/android-sdk/fortresstower/build/intermediates/cxx/Debug/s4ml5d5w/obj/arm64-v8a/libfortresstower.so	66db227068d4513a
+2	160	1765207555642653003	CMakeFiles/fortresstower.dir/anti_debug.cpp.o	66a43005f7dc4129
+160	272	1765207555755012771	/Users/bugra/Development/FortressTower/android-sdk/fortresstower/build/intermediates/cxx/Debug/s4ml5d5w/obj/arm64-v8a/libfortresstower.so	66db227068d4513a
+1	51	1765208089437174350	CMakeFiles/fortresstower.dir/anti_debug.cpp.o	66a43005f7dc4129
+51	102	1765208089487985702	/Users/bugra/Development/FortressTower/android-sdk/fortresstower/build/intermediates/cxx/Debug/s4ml5d5w/obj/arm64-v8a/libfortresstower.so	66db227068d4513a
