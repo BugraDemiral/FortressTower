@@ -28,7 +28,7 @@ dependencyResolutionManagement {
 
 ```kotlin
 dependencies {
-    implementation("com.github.BugraDemiral:FortressTower:v0.1.4-alpha")
+    implementation("com.github.BugraDemiral:FortressTower:v0.1.5")
 }
 ```
 
