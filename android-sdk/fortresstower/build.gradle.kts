@@ -1,3 +1,5 @@
+import org.gradle.api.publish.maven.MavenPublication
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -69,7 +71,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.17.0")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-core:5.12.0")
+    testImplementation("org.mockito:mockito-core:5.20.0")
 }
 
 afterEvaluate {
