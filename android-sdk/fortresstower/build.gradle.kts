@@ -79,11 +79,18 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.BugraDemiral"
             artifactId = "FortressTower"
-            version = "0.1.9" // Update version here
-            
+            version = "0.2.0"
+
             afterEvaluate {
                 from(components["release"])
             }
+        }
+    }
+
+    repositories {
+        maven {
+            name = "jitpack"
+            url = uri(rootProject.layout.buildDirectory.dir("repo"))
         }
     }
 }
