@@ -1,0 +1,3 @@
+/Users/bugra/Development/FortressTower/android-sdk/fortresstower/.cxx/Debug/v3321x16/arm64-v8a/CMakeFiles/fortresstower.dir
+/Users/bugra/Development/FortressTower/android-sdk/fortresstower/.cxx/Debug/v3321x16/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/bugra/Development/FortressTower/android-sdk/fortresstower/.cxx/Debug/v3321x16/arm64-v8a/CMakeFiles/rebuild_cache.dir

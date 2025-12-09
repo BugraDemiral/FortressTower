@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.monomobile.fortresstower.sample.sample-app-mergeDebugResources-44:/values-v21/values-v21.xml",
+            "outputFile": "com.monomobile.fortresstower.sample.sample-app-mergeDebugResources-46:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/bugra/.gradle/caches/8.11.1/transforms/7e2b1219f46fffaa39d56958d8c3a31a/transformed/core-1.13.1/res/values-v21/values-v21.xml",
+                    "source": "/Users/bugra/.gradle/caches/8.13/transforms/f3c9481c8cc860cedf26a357c47253fb/transformed/core-1.17.0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
