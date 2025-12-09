@@ -80,7 +80,7 @@ publishing {
             // JitPack automatically overrides groupId and version, but providing defaults is good practice
             groupId = "com.github.BugraDemiral"
             artifactId = "FortressTower"
-            version = "0.1.7"
+            version = "0.1.8"
 
             // Wait for the Android component to be ready
             afterEvaluate {
@@ -92,7 +92,7 @@ publishing {
     repositories {
         maven {
             name = "myRepo" // Can be any name
-            url = uri(layout.buildDirectory.dir("repo"))
+            url = uri(rootProject.layout.buildDirectory.dir("repo"))
         }
     }
 }
