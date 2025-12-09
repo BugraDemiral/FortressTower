@@ -61,7 +61,7 @@ android {
     publishing {
         singleVariant("release") {
             withSourcesJar()
-            // withJavadocJar() // optional, add later
+            withJavadocJar()
         }
     }
 
@@ -74,15 +74,17 @@ dependencies {
     testImplementation("org.mockito:mockito-core:5.20.0")
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            // JitPack automatically overrides groupId and version, but providing defaults is good practice
+            groupId = "com.github.BugraDemiral"
+            artifactId = "FortressTower"
+            version = "0.1.6"
 
-                groupId = project.group.toString()
-                artifactId = "FortressTower"
-                version = project.version.toString()
+            // Wait for the Android component to be ready
+            afterEvaluate {
+                from(components["release"])
             }
         }
     }

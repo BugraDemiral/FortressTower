@@ -6,12 +6,6 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose") version "2.2.21" apply false
 }
 
-allprojects {
-    // JitPack passes -Pgroup and -Pversion
-    group = (findProperty("group") as String?) ?: "com.github.BugraDemiral"
-    version = (findProperty("version") as String?) ?: "0.0.1-SNAPSHOT"
-}
-
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
