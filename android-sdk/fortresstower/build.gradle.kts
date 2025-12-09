@@ -81,7 +81,7 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = project.group.toString()
-                artifactId = "fortresstower"
+                artifactId = "FortressTower"
                 version = project.version.toString()
             }
         }
