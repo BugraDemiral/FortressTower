@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew :fortresstower:publishReleasePublicationToMavenRepository
+  - ./gradlew :fortresstower:publishToMavenLocal
